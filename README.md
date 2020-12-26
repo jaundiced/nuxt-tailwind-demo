@@ -2,6 +2,7 @@
 Tailwind sandbox/playground
 
 > Nuxt.js project
+> Credits to: https://github.com/sgraewe/nuxt-tailwind
 
 ## Build Setup
 
