@@ -5,11 +5,11 @@
 </template>
 
 <script>
-  export default {
-    head: {
-      bodyAttrs: {
-        class: 'font-sans bg-white'
-      }
-    }
-  }
+export default {
+  head: {
+    bodyAttrs: {
+      class: "font-sans bg-white",
+    },
+  },
+}
 </script>
