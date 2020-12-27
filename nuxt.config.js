@@ -65,6 +65,9 @@ export default {
     /*
      ** Run ESLint on save
      */
+    eslint: {
+      cache: false,
+    },
     extend(config, ctx) {},
   },
 }

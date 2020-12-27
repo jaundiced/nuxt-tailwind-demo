@@ -2,9 +2,7 @@
   <div class="container mx-auto">
     <div class="section">
       <div class="section-title">OUR SERVICES</div>
-      <div class="section-subtitle">
-        We offer the best web development solutions.
-      </div>
+      <div class="section-subtitle">We offer so many of the things...</div>
       <div class="flex justify-center flex-wrap p-10">
         <div class="relative w-48 h-64 m-5 bg-white shadow-lg">
           <div class="flex items-center w-48 h-20 bg-orange-500">

@@ -50,6 +50,61 @@
         <nuxt-link class="text-blue-200" to="/about">About</nuxt-link>
       </li>
     </ul>
+    <div class="md:hidden flex-shrink-0 ml-10 cursor-pointer">
+      <i
+        class="fas fa-bars fa-2x text-orange-500 mr-6 p-1"
+        @click="toggleMenu()"
+      ></i>
+    </div>
+    <div v-show="showMenu">
+      <ul class="md:flex md:flex-row font-semibold">
+        <li
+          :class="
+            this.$route.name == 'index'
+              ? activeLinkListItem
+              : inActiveLinkListItem
+          "
+        >
+          <nuxt-link class="text-blue-200" to="/">Home</nuxt-link>
+        </li>
+        <li
+          :class="
+            this.$route.name == 'services'
+              ? activeLinkListItem
+              : inActiveLinkListItem
+          "
+        >
+          <nuxt-link class="text-blue-200" to="/services">Services</nuxt-link>
+        </li>
+        <li
+          :class="
+            this.$route.name == 'projects'
+              ? activeLinkListItem
+              : inActiveLinkListItem
+          "
+        >
+          <nuxt-link class="text-blue-200" to="/projects">Projects</nuxt-link>
+        </li>
+        <li
+          :class="
+            this.$route.name == 'team'
+              ? activeLinkListItem
+              : inActiveLinkListItem
+          "
+        >
+          <nuxt-link class="text-blue-200" to="/team">Team</nuxt-link>
+        </li>
+        <li
+          :class="
+            this.$route.name == 'about'
+              ? activeLinkListItem
+              : inActiveLinkListItem
+          "
+        >
+          <nuxt-link class="text-blue-200" to="/about">About</nuxt-link>
+        </li>
+      </ul>
+    </div>
   </div>
 </template>
 
@@ -60,7 +115,15 @@ export default {
     return {
       activeLinkListItem: "mr-6 p-1 border-b-2 border-orange-500",
       inActiveLinkListItem: "mr-6 p-1",
+      showMenu: false,
     }
+  },
+  methods: {
+    toggleMenu() {
+      // eslint-disable-next-line no-console
+      console.log("toggleMenu")
+      this.showMenu = !this.showMenu
+    },
   },
 }
 </script>
