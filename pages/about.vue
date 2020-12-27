@@ -1,6 +1,23 @@
 <template>
-  <div class="container">
-    <h2>About</h2>
+  <div>
+    <div class="headerTitle">About</div>
+    <ul>
+      <li>Blah...</li>
+      <li>Blah Blah Blah...</li>
+      <li>Blah Blah Blah...</li>
+      <li>Blah Blah Blah...</li>
+      <li>Blah Blah Blah...</li>
+      <li>Blah Blah Blah...</li>
+      <li>Blah Blah Blah...</li>
+      <li>Blah Blah Blah...</li>
+      <li>Blah Blah Blah...</li>
+      <li>Blah Blah Blah...</li>
+      <li>Blah Blah Blah...</li>
+      <li>Blah Blah Blah...</li>
+      <li>Blah Blah Blah...</li>
+      <li>Blah Blah Blah...</li>
+      <li>Blah Blah Blah...</li>
+    </ul>
   </div>
 </template>
 
@@ -13,3 +30,11 @@ export default {
   },
 }
 </script>
+
+<style scoped>
+.headerTitle {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  @apply text-4xl;
+}
+</style>

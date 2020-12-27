@@ -1,7 +1,11 @@
 <template>
   <div>
     <NavBar />
-    <nuxt />
+    <div
+      class="shadow-xl bg-gray-100 text-blue-500 border-blue-200 text-xl w-3/4 mx-auto p-10 m-5 rounded-lg"
+    >
+      <nuxt />
+    </div>
   </div>
 </template>
 
@@ -14,6 +18,13 @@ export default {
     bodyAttrs: {
       class: "font-sans bg-blue-900",
     },
+    link: [
+      {
+        rel: "stylesheet",
+        href:
+          "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css",
+      },
+    ],
   },
 }
 </script>
