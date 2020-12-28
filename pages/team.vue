@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto">
+  <div class="mx-auto pt-20">
     <div class="section">
       <div class="section-title">OUR TEAM</div>
       <div class="section-subtitle">We offer things and stuff.</div>

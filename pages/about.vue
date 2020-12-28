@@ -1,23 +1,26 @@
 <template>
-  <div>
-    <div class="headerTitle">About</div>
-    <ul>
-      <li>Blah...</li>
-      <li>Blah Blah Blah...</li>
-      <li>Blah Blah Blah...</li>
-      <li>Blah Blah Blah...</li>
-      <li>Blah Blah Blah...</li>
-      <li>Blah Blah Blah...</li>
-      <li>Blah Blah Blah...</li>
-      <li>Blah Blah Blah...</li>
-      <li>Blah Blah Blah...</li>
-      <li>Blah Blah Blah...</li>
-      <li>Blah Blah Blah...</li>
-      <li>Blah Blah Blah...</li>
-      <li>Blah Blah Blah...</li>
-      <li>Blah Blah Blah...</li>
-      <li>Blah Blah Blah...</li>
-    </ul>
+  <div class="mx-auto pt-20">
+    <div class="section">
+      <div class="section-title">ABOUT STUFF</div>
+      <div class="section-subtitle">We offer things and stuff.</div>
+      <ul class="p-2 text-md text-gray-700">
+        <li>Blah...</li>
+        <li>Blah Blah Blah...</li>
+        <li>Blah Blah Blah...</li>
+        <li>Blah Blah Blah...</li>
+        <li>Blah Blah Blah...</li>
+        <li>Blah Blah Blah...</li>
+        <li>Blah Blah Blah...</li>
+        <li>Blah Blah Blah...</li>
+        <li>Blah Blah Blah...</li>
+        <li>Blah Blah Blah...</li>
+        <li>Blah Blah Blah...</li>
+        <li>Blah Blah Blah...</li>
+        <li>Blah Blah Blah...</li>
+        <li>Blah Blah Blah...</li>
+        <li>Blah Blah Blah...</li>
+      </ul>
+    </div>
   </div>
 </template>
 

@@ -2,7 +2,7 @@
   <div>
     <NavBar />
     <div
-      class="shadow-xl bg-gray-100 text-blue-500 border-blue-200 text-xl w-3/4 mx-auto p-10 m-5 rounded-lg"
+      class="container mx-auto shadow-xl bg-gray-100 text-blue-500 border-blue-200 text-xl w-3/4 p-10"
     >
       <nuxt />
     </div>
